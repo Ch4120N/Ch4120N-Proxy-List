@@ -1,7 +1,8 @@
 name:  20-Min Proxy Updater
 on:
   schedule:
-    - cron: '*/20 * * * *'
+    # - cron: '*/20 * * * *'
+    - cron: '0 */1 * * *'
   workflow_dispatch:
 
 permissions:
