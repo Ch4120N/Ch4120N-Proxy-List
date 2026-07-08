@@ -1,0 +1,60 @@
+name:  Proxy Updater
+
+on:
+  schedule:
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-proxies:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Public Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests[socks] urllib3
+      
+      - name: Setup Script
+        env:
+          TOKEN: ${{ secrets.TOKEN }}
+          UPDATER: ${{ secrets.UPDATER_SCRIPT }}
+        run: |
+          curl -s -L -u "${{ secrets.GH_USERNAME }}:${TOKEN}" \
+            -o chProxyUpdater.py \
+            "${UPDATER}"
+          
+          echo "✅ Script downloaded successfully."
+
+      - name: Run Proxy Updater
+        run: python chProxyUpdater.py
+
+      - name: Clean up script
+        run: rm chProxyUpdater.py
+
+      - name: Commit and Push Results
+        run: |
+          git config --local user.email "${{ secrets.GH_EMAIL }}"
+          git config --local user.name "${{ secrets.GH_USERNAME }}"
+          
+          git add proxies/
+          git commit -m "Update Proxies 🚀" --allow-empty
+          
+          git add countries/
+          git commit -m "Update Countries 🌍" --allow-empty
+
+          git add README.md
+          git commit -m "Update Live Stats ⚡" --allow-empty
+          
+          git push
