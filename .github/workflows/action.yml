@@ -1,5 +1,4 @@
-name:  Proxy Updater
-
+name:  20-Min Proxy Updater
 on:
   schedule:
     - cron: '*/20 * * * *'
