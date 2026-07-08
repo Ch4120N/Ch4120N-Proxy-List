@@ -35,7 +35,17 @@ jobs:
             -o chProxyUpdater.py \
             "${UPDATER}"
           
-          python chProxyUpdater.py
+          head -n 5 chProxyUpdater.py
+          
+          if grep -q "<title>" chProxyUpdater.py; then
+            echo "❌ FATAL: Downloaded an HTML 404 page instead of the Python script!"
+            echo "Please check your UPDATER_URL secret and your Token permissions."
+            exit 1
+          fi
+          
+          echo "✅ Script downloaded successfully and verified as Python code."
+          
+          # python chProxyUpdater.py
           
       - name: Clean up script
         run: rm chProxyUpdater.py
