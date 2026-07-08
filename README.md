@@ -1,9 +1,10 @@
 
+
 <div align="center">
 
 # 🌐 Ultimate Free Proxy List 🚀
 
-![Total Alive Proxies](https://img.shields.io/badge/Total%20Alive-263-brightgreen?style=for-the-badge)
+![Total Alive Proxies](https://img.shields.io/badge/Total%20Alive-959-brightgreen?style=for-the-badge)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026-07-08-blue?style=for-the-badge)
 ![Update Frequency](https://img.shields.io/badge/Updates-Every%20Hour-orange?style=for-the-badge)
 ![Maintainer](https://img.shields.io/badge/Maintained%20By-Ch4120N-purple?style=for-the-badge)
@@ -14,27 +15,27 @@
 
 ## 📖 About
 Welcome to the most comprehensive, automatically updated, and strictly validated free proxy list on GitHub! 
-This repository is actively **Maintained by Ch4120N** and leverages advanced asyncio concurrency to ensure you always have access to the freshest, fastest, and most reliable proxies.
+This repository is actively **Maintained by Ch4120N** and leverages advanced multi-threading to ensure you always have access to the freshest, fastest, and most reliable proxies.
 
 ## ✨ Key Features
 - 🔄 **Auto-Updated:** Refreshes every Hour via GitHub Actions.
-- 🛡️ **Strictly Validated:** Every single proxy is checked using raw sockets for real availability.
+- 🛡️ **Strictly Validated:** Every single proxy is checked line-by-line for real availability.
 - 🌍 **Country Sorted:** Proxies are neatly categorized by country using dedicated regional sources.
-- 🚀 **High Performance:** Async I/O with thousands of concurrent checks for maximum speed.
+- 🚀 **High Performance:** Multi-threaded fetching and validation for maximum speed.
 - 📡 **Multi-Protocol:** Supports HTTP, HTTPS, SOCKS4, SOCKS5, and Telegram MTProto.
-- 🧹 **Clean & Deduplicated:** Advanced set-based deduplication handles millions of entries.
+- 🧹 **Clean & Deduplicated:** Advanced algorithms remove dead and duplicate entries.
 
 ## 📊 Live Proxy Statistics
 
 | 📡 Protocol | 🔢 Alive Count | 🔗 Direct Download |
 | :--- | :---: | :--- |
-| **HTTP/HTTPS** | `0` | [📥 Download `http.txt`](proxies/http.txt) |
-| **SOCKS4** | `0` | [📥 Download `socks4.txt`](proxies/socks4.txt) |
-| **SOCKS5** | `0` | [📥 Download `socks5.txt`](proxies/socks5.txt) |
+| **HTTP/HTTPS** | `122` | [📥 Download `http.txt`](proxies/http.txt) |
+| **SOCKS4** | `70` | [📥 Download `socks4.txt`](proxies/socks4.txt) |
+| **SOCKS5** | `504` | [📥 Download `socks5.txt`](proxies/socks5.txt) |
 | **MTProto** | `263` | [📥 Download `mtproto.txt`](proxies/mtproto.txt) |
-| **🔥 ALL** | **`263`** | [📥 Download `all.txt`](proxies/all.txt) |
+| **🔥 ALL** | **`959`** | [📥 Download `all.txt`](proxies/all.txt) |
 
-> 💡 **Pro Tip:** The `all.txt` file includes the protocol scheme (e.g., `socks5://`, `http://`) so you know exactly what protocol each proxy uses!
+> 💡 **Pro Tip:** The `all.txt` files include the protocol scheme (e.g., `socks5://`, `http://`) so you know exactly what protocol each proxy uses!
 
 ## 🌍 Country-Specific Proxies 🗺️
 Need a proxy from a specific region? We've got you covered! 
