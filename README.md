@@ -4,7 +4,7 @@
 
 # 🌐 Ultimate Free Proxy List 🚀
 
-![Total Alive Proxies](https://img.shields.io/badge/Total%20Alive-783-brightgreen?style=for-the-badge)
+![Total Alive Proxies](https://img.shields.io/badge/Total%20Alive-497-brightgreen?style=for-the-badge)
 ![Last Updated](https://img.shields.io/badge/Last%20Updated-2026--08--20-blue?style=for-the-badge)
 ![Update Frequency](https://img.shields.io/badge/Updates-Every%2020%20Min-orange?style=for-the-badge)
 ![Maintainer](https://img.shields.io/badge/Maintained%20By-Ch4120N-purple?style=for-the-badge)
@@ -29,11 +29,11 @@ This repository is actively **Maintained by Ch4120N** and leverages advanced mul
 
 | 📡 Protocol | 🔢 Alive Count | 🔗 Direct Download |
 | :--- | :---: | :--- |
-| **HTTP/HTTPS** | `332` | [📥 Download `http.txt`](proxies/http.txt) |
-| **SOCKS4** | `217` | [📥 Download `socks4.txt`](proxies/socks4.txt) |
-| **SOCKS5** | `234` | [📥 Download `socks5.txt`](proxies/socks5.txt) |
+| **HTTP/HTTPS** | `133` | [📥 Download `http.txt`](proxies/http.txt) |
+| **SOCKS4** | `227` | [📥 Download `socks4.txt`](proxies/socks4.txt) |
+| **SOCKS5** | `137` | [📥 Download `socks5.txt`](proxies/socks5.txt) |
 | **MTProto** | `0` | [📥 Download `mtproto.txt`](proxies/mtproto.txt) |
-| **🔥 ALL** | **`783`** | [📥 Download `all.txt`](proxies/all.txt) |
+| **🔥 ALL** | **`497`** | [📥 Download `all.txt`](proxies/all.txt) |
 
 > 💡 **Pro Tip:** The `all.txt` files include the protocol scheme (e.g., `socks5://`, `http://`) so you know exactly what protocol each proxy uses!
 
