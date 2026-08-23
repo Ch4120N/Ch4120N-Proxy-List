@@ -29,9 +29,9 @@ This repository is actively **Maintained by Ch4120N** and leverages advanced mul
 
 | 📡 Protocol | 🔢 Alive Count | 🔗 Direct Download |
 | :--- | :---: | :--- |
-| **HTTP/HTTPS** | `511` | [📥 Download `http.txt`](proxies/http.txt) |
-| **SOCKS4** | `316` | [📥 Download `socks4.txt`](proxies/socks4.txt) |
-| **SOCKS5** | `294` | [📥 Download `socks5.txt`](proxies/socks5.txt) |
+| **HTTP/HTTPS** | `406` | [📥 Download `http.txt`](proxies/http.txt) |
+| **SOCKS4** | `418` | [📥 Download `socks4.txt`](proxies/socks4.txt) |
+| **SOCKS5** | `297` | [📥 Download `socks5.txt`](proxies/socks5.txt) |
 | **MTProto** | `230` | [📥 Download `mtproto.txt`](proxies/mtproto.txt) |
 | **🔥 ALL** | **`1,351`** | [📥 Download `all.txt`](proxies/all.txt) |
 
